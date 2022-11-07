@@ -7,3 +7,19 @@ body {
   background-color: #f2cc8f;
 }
 
+.box {
+  display: flex;
+}
+
+
+.box .inner {
+  width: 400px;
+  height: 200px;
+  line-height: 200px;
+  font-size: 4em;
+  font-family: sans-serif;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
