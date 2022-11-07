@@ -30,3 +30,11 @@ body {
   transform: perspective(100px) rotateY(-15deg);
 }
 
+.box .inner:last-child {
+  background-color: #ff4d6d;
+  color: antiquewhite;
+  transform-origin: left;
+  transform: perspective(100px) rotateY(15deg);
+}
+
+
