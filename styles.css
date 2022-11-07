@@ -23,3 +23,10 @@ body {
   overflow: hidden;
 }
 
+.box .inner:first-child {
+  background-color: #c9184a;
+  color: #590d22;
+  transform-origin: right;
+  transform: perspective(100px) rotateY(-15deg);
+}
+
